@@ -1,0 +1,37 @@
+body{
+    background-color: cornsilk;
+    text-align: center;
+}
+
+#demobutton{
+    border-radius: 50px;
+    color: aliceblue; 
+    margin-top: 20px;
+    background-color: rgb(70, 70, 222);
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    text-align: center;
+}
+
+#demobutton:active{
+    transform: scale(0.90) ;
+}
+
+#anibutton{
+    border-radius: 50px;
+    margin-top: 50px;
+    color: aliceblue; 
+    background-color: rgba(2, 2, 84, 0.601);
+    text-align: center;
+    border: none;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    text-align: center;
+}
+
+#anibutton:active{
+    transform: scale(0.90) ;
+}
